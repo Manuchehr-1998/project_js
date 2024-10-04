@@ -1,24 +1,38 @@
 nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
-  background-color: #333;
+  background-color: #141414;
   color: #fff;
-  text-align: center;
 }
 
-main {
-  padding: 20px;
+.account-container {
+  display: flex;
+  align-items: center;
 }
 
-main h1 {
-  font-size: 24px;
+.logo {
+  width: 21px;
+  margin-right: 25px;
 }
 
-main p {
-  font-size: 18px;
+.account-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-footer {
-  padding: 20px;
-  background-color: #f4f4f4;
-  text-align: center;
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+  color: #fff;
+  cursor: pointer;
 }
