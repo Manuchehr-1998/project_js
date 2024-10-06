@@ -1,5 +1,5 @@
 export function createFooter() {
   const footer = document.createElement("footer");
-  footer.textContent = "Kvartira - Footer Content";
+  footer.textContent = "ZLATMAX - Footer Content";
   return footer;
 }
